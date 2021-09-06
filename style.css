@@ -236,4 +236,17 @@ hr{
     height: 600px;
     margin-top: 100px;
 }
-
+#members div div{
+    background-color: rgb(208, 210, 212) ;
+    padding: 10px;
+    font-size: 18pt;
+    color: black;
+    text-align: center;
+    border: 1px solid white;
+    border-left: 2px solid white;
+}
+.tabletitles div{
+    background-color: slategrey!important;
+    color: white !important;
+    font-weight: bold;
+}
