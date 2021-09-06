@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Manager</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    
+  </head>
+
+<!----------------------Nav-------------------------->
+<body>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">M-M</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars" style="color: white; font-size: 30pt;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#top">Manage</a>
+            <a class="nav-item nav-link" href="find.html">Find</a>
+            <a class="nav-item nav-link disabled" href="#social-media">Contact us</a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!----------------------Rent unit info--------------------------> 
+    <section id="rentunitinfo">
+        <div class="container-fluid">
+            <div class="row" id="unitinfo">
+                <div class="col-md-6">
+                    <p class="bannertitle rentunittitle">Rent Unit Name</p>
+                    <ul id="unitinfolist">
+                        <li>Address : Sust campus, Sylhet, BD</li>
+                        <li>Members : 6</li>
+                        <li>Monthly rent : </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!----------------------Accounts and Transaction--------------------------> 
+    <section id="account-overview">
+        
+        <div class="container-fluid">
+            
+            <div class="row">
+                <div id="statname" class="col">
+                    <p  id="monthly">Monthly</p>
+                </div>
+                <div class="col-1" id="add">
+                    <p>+</p>
+                </div>
+                <div id="numbers"class="col">
+                    <p id="num_monthly">17,500 $</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="statname" class="col">
+                    <p id="due">Due (past)</p>
+                </div>
+                <div class="col-1" id="add">
+                    <p>+</p>
+                </div>
+                <div id="numbers" class="col">
+                    <p id="num_due">00 $</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="statname" class="col">
+                    <p  id="monthly">Paid</p>
+                </div>
+                <div class="col-1" id="subtract">
+                    <p>-</p>
+                </div>
+                <div id="numbers"class="col">
+                    <p id="num_monthly">17,500 $</p>
+                </div>
+            </div>
+            <hr style="height: 2px;background-color: slategray; margin: 5px;">
+            <div class="row">
+                <div id="statname" class="col">
+                    <p  id="monthly">Total (to be paid)</p>
+                </div>
+                <div class="col-1" id="add">
+                    <p>=</p>
+                </div>
+                <div id="numbers"class="col">
+                    <p id="num_monthly">500 $</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!----------------------Members-------------------------->
+    <section id="members">
+
+    </section>
+
+
+   <!----------------------Social Media-------------------------->
+
+   <section id="social-media">
+    <div class="container text-center">
+      <p>Social Media Contacts</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/asiful.haque.66/"><img src="assets/facebook-icon.png" alt=""></a>
+        <a href="https://twitter.com/asiful__hq"><img src="assets/twitter-icon.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/asifulhq/"><img src="assets/linkedin-icon.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+    
+    <!-------------footer---------------->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 footer-box">
+            <img src="assets/demo-logo.png" alt="">
+            <p>Text text something should be here. But still working on it or somehow forgot. No idea!</p>
+          </div>
+          <div class="col-md-6 footer-box">
+            <p><b>Contact us</b></p>
+            <p><i class="fa fa-map-marker"></i> SUST, 3114 University Ave, Sylhet</p>  
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">website created by <a href="https://github.com/AsifulHaque">asif_hq</a></p>
+      </div>
+    </section>
+
+
+    <!---------------smooth scroll------------------>
+    <script src="smooth-scroll.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    
+
+    <!--------------------------------------------Bootstrap-------------------------------->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </body>
+</html>
